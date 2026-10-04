@@ -86,7 +86,7 @@ The UI opens in your browser. Type a natural‑language query (e.g., `"funny com
 ## ⚠️ Limitations
 - The query parser is rule‑based; only a limited set of genres and simple year expressions are supported.
 - Embeddings are computed on‑the‑fly the first run and cached to `data/movie_embeddings.npy`.
-- No external APIs are required; the OpenAI API is **not** used.
+- Groq API is optional for conversational RAG responses; semantic retrieval and filtering work locally without an external API.
 - The dataset is tiny and intended for demonstration only.
 
 ---
